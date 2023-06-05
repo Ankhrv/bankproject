@@ -1,0 +1,76 @@
+
+
+.txt{
+width: 100%;background-color: rgb(43, 73, 73);
+display: flex;
+justify-content: center;
+}
+
+.Pic{ 
+display: flex;
+background-color: rgb(50, 85, 73);
+width: 100%;
+justify-content: center;
+align-items: center; 
+margin-top: 100px;
+}
+
+
+.Pic2{ 
+display: flex;
+background-color: rgb(120, 120, 120);
+width: 360px;
+height: 386px;
+justify-content: center;
+align-items: center; 
+margin: 10px;
+
+border-radius: 5px 5px 5px 5px;
+
+}
+
+
+.Glav{
+width: 100%;
+background-color: rgb(47, 47, 47);
+height: 600px;
+}
+
+@media screen and (max-width: 1280px) {
+    .txt{
+        width: 100%;background-color: rgb(43, 73, 73);
+        display: flex;
+        justify-content: center;
+        }
+        
+        .Pic{ 
+        display: flex;
+        background-color: rgb(50, 85, 73);
+        width: 100%;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 50px;
+        }
+        
+        
+        .Pic2{ 
+        display: flex;
+        background-color: rgb(120, 120, 120);
+        width: 360px;
+        height: 330px;
+        justify-content: center;
+        align-items: center; 
+        margin: 10px;
+       
+        border-radius: 5px 5px 5px 5px;
+        
+        }
+        
+        
+        .Glav{
+        width: 100%;
+        background-color: rgb(47, 47, 47);
+        height: 600px;
+        }
+    
+}
