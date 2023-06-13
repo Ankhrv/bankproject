@@ -120,13 +120,13 @@
     color: white;
     padding: 5px 5px 5px 5px;
     transform: skew(-8deg);
-    
+
 }
 
 .Cena2 {
     /*  возврат наклона текст в подблоке от 7 10 5 9 */
     transform: skew(8deg);
-  
+
 }
 
 .text78 {
@@ -654,7 +654,12 @@
      }
 
      @media screen and (max-width: 1090px){
-        .text78 {
+        
+        .img1{
+            width: 30px;
+          }
+        
+    .text78 {
             /* подблок с галочками и текстом */
             display: flex;
             flex-direction: column;
@@ -752,7 +757,7 @@
      }
 
      @media screen and (max-width: 907px){
-        
+
         .text78 {
             /* подблок с галочками и текстом */
             display: flex;
@@ -767,7 +772,7 @@
      }
 
      @media screen and (max-width: 800px){
-       
+
         .img2 {
             /* галочка */
             width: 10px;
@@ -783,7 +788,7 @@
             padding: px;
             border-radius: 15px;
             justify-content: center;}
-            
+
             .text3 {
                 /*блок общ картинка составление сметы выезд на объект и бесплатно */
                 display: flex;
@@ -794,9 +799,9 @@
                 /* width: 340px;
                 height: 200px; */
                    /* background-color: rgb(4, 51, 35); */
-        
+
             }
-        
+
             .text4 {
                 /* блок общ картинка простая территория сложная территория и цена */
                 display: flex;
@@ -808,7 +813,7 @@
                 height: 200px; */
                 /* background-color: beige; */
             }
-        
+
             .text8 {
                 /* картинка простая территория и блок цена */
               width: 220px;
@@ -819,7 +824,7 @@
                 /* margin: 0px 0px 0px 0px; */
                 border: 3px solid rgb(13, 130, 89);
             }
-        
+
             .text5 {
                 /* картинка составление сметы и блок цена */
                 width: 220px;
@@ -830,7 +835,7 @@
                 /* margin: 10px 10px 10px 0px; */
                 border: 3px solid rgb(13, 130, 89);
             }
-        
+
             .text9 {
                 /* картинка выезд на объект и блок цена */
                 width: 220px;
@@ -841,7 +846,7 @@
                 /* margin: 20px 10px 0px 0px; */
                 border: 3px solid rgb(13, 130, 89);
             }
-        
+
             .text10 {
                 /* картинка сложная территория и блок цена */
                 width: 220px;
@@ -874,7 +879,7 @@
             justify-content: center;
             font-size: 10px;}
 
-            
+
  } 
 
  @media screen and (max-width: 700px) {
@@ -886,15 +891,15 @@
     .img1{
     width: 80px;
   }
-   
+
 
         .oo{/* общий */
          display: flex;
          flex-direction: column;
             /* background-color: rgb(60, 20, 20); */
         }
-        
-        
+
+
         .text3 {
             /*блок общ картинка составление сметы выезд на объект и бесплатно */
             display: flex;
@@ -906,9 +911,9 @@
             /* width: 340px;
             height: 200px; */
             /* background-color: aquamarine; */
-        
+
         }
-        
+
         .text4 {
             /* блок общ картинка простая территория сложная территория и цена */
             display: flex;
@@ -920,10 +925,10 @@
         /* background-color: aquamarine; */
             /* width: 340px;
             height: 200px; */
-        
+
             /* background-color: beige; */
         }
-        
+
         .text8 {
             /* картинка простая территория и блок цена */
           width:auto;
@@ -933,22 +938,22 @@
             background-color: whitesmoke;
             margin: 0px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
-            
+
         }
-        
+
         .text5 {
             /* картинка составление сметы и блок цена */
             width:auto;
-        
+
             /* width: 19em;
             width: 45%; */
             height: 136px;
             background-color: whitesmoke;
             margin: 0px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
-        
+
         }
-        
+
         .text9 {
             /* картинка выезд на объект и блок цена */
             width:auto;
@@ -959,7 +964,7 @@
              margin: 20px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
         }
-        
+
         .text10 {
             /* картинка сложная территория и блок цена */
             width:auto;
@@ -970,28 +975,28 @@
              margin: 20px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
         }
-        
+
         .text7 {
             /*  главный блок с галочками и текстом */
             display: flex;
             margin: 20px 0px 0px 0px; 
             width: 100%;
-            
-           
-        
+
+
+
             /* width: 100%; */
-        
-        
+
+
         }
-        
+
         .T {
             /* текст в блоках 7 10 5 9 */
             font-family: Raleway;
             color: rgb(13, 130, 89);
             font-weight: 600;
         }
-        
-        
+
+
         .Cena {
             /* текст в подблоке от 7 10 5 9 */
             display: flex;
@@ -1002,19 +1007,19 @@
             color: white;
             padding: 5px 5px 5px 5px;
             transform: skew(-8deg);
-            
+
         }
-        
+
         .Cena2 {
             /*  возврат наклона текст в подблоке от 7 10 5 9 */
             transform: skew(8deg);
-          
+
         }
-        
+
         .text78 {
             /* подблок с галочками и текстом */
             display: flex;
-           
+
             flex-direction: column;
             width: 650px;
             /* position: static;
@@ -1024,10 +1029,10 @@
             /* margin: 10px 0px 25px 120px; */
             border-radius: 15px;
             justify-content: center;
-            
+
         }
-        
-        
+
+
 } 
 
 @media screen and (max-width: 470px) {
@@ -1039,15 +1044,15 @@
     .img1{
     width: 80px;
   }
-   
+
 
         .oo{/* общий */
          display: flex;
          flex-direction: column;
             /* background-color: rgb(60, 20, 20); */
         }
-        
-        
+
+
         .text3 {
             /*блок общ картинка составление сметы выезд на объект и бесплатно */
             display: flex;
@@ -1060,7 +1065,7 @@
             height: 200px; */
             /* background-color: aquamarine;  */
         }
-        
+
         .text4 {
             /* блок общ картинка простая территория сложная территория и цена */
             display: flex;
@@ -1072,10 +1077,10 @@
          /* background-color: aquamarine; */
             /* width: 340px;
             height: 200px; */
-        
+
             /* background-color: beige; */
         }
-        
+
         .text8 {
             /* картинка простая территория и блок цена */
           width:auto;
@@ -1085,22 +1090,22 @@
             background-color: whitesmoke;
             margin: 0px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
-            
+
         }
-        
+
         .text5 {
             /* картинка составление сметы и блок цена */
             width:auto;
-        
+
             /* width: 19em;
             width: 45%; */
             height: 106px;
             background-color: whitesmoke;
             margin: 5px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
-        
+
         }
-        
+
         .text9 {
             /* картинка выезд на объект и блок цена */
             width:auto;
@@ -1111,7 +1116,7 @@
              margin: 20px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
         }
-        
+
         .text10 {
             /* картинка сложная территория и блок цена */
             width:auto;
@@ -1122,28 +1127,28 @@
              margin: 20px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
         }
-        
+
         .text7 {
             /*  главный блок с галочками и текстом */
             display: flex;
             margin: 25px 0px 0px 0px; 
             width: 100%;
-            
-           
-        
+
+
+
             /* width: 100%; */
-        
-        
+
+
         }
-        
+
         .T {
             /* текст в блоках 7 10 5 9 */
             font-family: Raleway;
             color: rgb(13, 130, 89);
             font-weight: 600;
         }
-        
-        
+
+
         .Cena {
             /* текст в подблоке от 7 10 5 9 */
             display: flex;
@@ -1154,19 +1159,19 @@
             color: white;
             padding: 5px 5px 5px 5px;
             transform: skew(-8deg);
-            
+
         }
-        
+
         .Cena2 {
             /*  возврат наклона текст в подблоке от 7 10 5 9 */
             transform: skew(8deg);
-          
+
         }
-        
+
         .text78 {
             /* подблок с галочками и текстом */
             display: flex;
-           
+
             flex-direction: column;
             width: 650px;
             /* position: static;
@@ -1176,10 +1181,10 @@
             /* margin: 10px 0px 25px 120px; */
             border-radius: 15px;
             justify-content: center;
-            
+
         }
-        
-        
+
+
 } 
 
 
@@ -1192,15 +1197,15 @@
     .img1{
     width: 60px;
   }
-   
+
 
         .oo{/* общий */
          display: flex;
          flex-direction: column;
             /* background-color: rgb(60, 20, 20); */
         }
-        
-        
+
+
         .text3 {
             /*блок общ картинка составление сметы выезд на объект и бесплатно */
             display: flex;
@@ -1212,9 +1217,9 @@
             /* width: 340px;
             height: 200px; */
             /* background-color: aquamarine;  */
-        
+
         }
-        
+
         .text4 {
             /* блок общ картинка простая территория сложная территория и цена */
             display: flex;
@@ -1226,10 +1231,10 @@
          /* background-color: aquamarine; */
             /* width: 340px;
             height: 200px; */
-        
+
             /* background-color: beige; */
         }
-        
+
         .text8 {
             /* картинка простая территория и блок цена */
             border-radius: 5px 5px 5px 5px;
@@ -1240,9 +1245,9 @@
             background-color: whitesmoke;
             margin: 0px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
-            
+
         }
-        
+
         .text5 {
             /* картинка составление сметы и блок цена */
             width:auto;
@@ -1253,12 +1258,12 @@
             background-color: whitesmoke;
             margin: 0px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
-        
+
         }
-        
+
         .text9 {
             /* картинка выезд на объект и блок цена */
-            
+
             border-radius: 5px 5px 5px 5px;
             width:auto;
             /* width: 19em;
@@ -1268,7 +1273,7 @@
              margin: 20px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
         }
-        
+
         .text10 {
             /* картинка сложная территория и блок цена */
             width:auto;
@@ -1280,28 +1285,28 @@
             border: 2px solid rgb(13, 130, 89);
             border-radius: 5px 5px 5px 5px;
         }   
-        
+
         .text7 {
             /*  главный блок с галочками и текстом */
             display: flex;
             margin: 20px 0px 0px 0px; 
             width: 100%;
-            
-           
-        
+
+
+
             /* width: 100%; */
-        
-        
+
+
         }
-        
+
         .T {
             /* текст в блоках 7 10 5 9 */
             font-family: Raleway;
             color: rgb(13, 130, 89);
             font-weight: 600;
         }
-        
-        
+
+
         .Cena {
             /* текст в подблоке от 7 10 5 9 */
             display: flex;
@@ -1312,15 +1317,15 @@
             color: white;
             padding: 5px 5px 5px 5px;
             transform: skew(-8deg);
-            
+
         }
-        
+
         .Cena2 {
             /*  возврат наклона текст в подблоке от 7 10 5 9 */
             transform: skew(8deg);
-          
+
         }
-        
+
         .text78 {
             /* подблок с галочками и текстом */
             display: flex;
@@ -1335,16 +1340,16 @@
             border-radius: 15px;
             justify-content: center;
             text-align:start;
-            
+
         }
-        
+
         .b2 {
             /* галочка и текст */
             margin: 20px 0px;
             font-size: 10px;
         }}
 
-      
+
 
         @media screen and (max-width: 440px) {
 
@@ -1359,10 +1364,10 @@
                 /* width: 340px;
                 height: 200px; */
                  /* background-color: aquamarine;  */
-                  
-            
+
+
             }
-            
+
             .text4 {
                 /* блок общ картинка простая территория сложная территория и цена */
                 display: flex;
@@ -1371,11 +1376,11 @@
              height: 200px;
                 /* width: 40em; */
                 width: 100%;
-                   
+
               /* background-color: aquamarine;  */
                 /* width: 340px;
                 height: 200px; */
-            
+
                 /* background-color: beige; */
             }    
         .text8 {
@@ -1388,9 +1393,9 @@
             background-color: whitesmoke;
             margin: 0px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
-            
+
         }
-        
+
         .text5 {
             /* картинка составление сметы и блок цена */
             width:auto;
@@ -1401,12 +1406,12 @@
             background-color: whitesmoke;
             margin: 10px 0px 4px 0px; 
             border: 3px solid rgb(13, 130, 89);
-        
+
         }
-        
+
         .text9 {
             /* картинка выезд на объект и блок цена */
-            
+
             border-radius: 5px 5px 5px 5px;width:auto;
             /* width: 19em;
             width: 45%; */
@@ -1415,7 +1420,7 @@
              margin: 15px 0px 0px 0px; 
             border: 3px solid rgb(13, 130, 89);
         }
-        
+
         .text10 {
             /* картинка сложная территория и блок цена */
             width:auto;
@@ -1427,21 +1432,21 @@
             border: 2px solid rgb(13, 130, 89);
             border-radius: 5px 5px 5px 5px;
         }   
-        
+
         .text7 {
             /*  главный блок с галочками и текстом */
             display: flex;
             margin: 15px 0px 0px 0px; 
             width: 100%;
-            
+
             /* width: 100%; */
-        
-        
+
+
         }
         .text78 {
             /* подблок с галочками и текстом */
             height: 290px;  
-            
+
         }
         }
 
@@ -1457,10 +1462,9 @@
             .text78 {
                 /* подблок с галочками и текстом */
                 height: 260px;  
-            
-                
+
+
             }
 
         }
-        
 
