@@ -1,0 +1,85 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Raleway-Regular00.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Raleway;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+
+}
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/fonts/Montserrat-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Montserrat;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+.ui{
+    font-family: Montserrat;
+    color: white;
+    font-size: 17px;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+
+}
+form{
+  
+    width:50%;
+    margin:0px 10% ;
+    padding:0px 0px;
+    font-family: Raleway;
+    
+    
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .te{
+    
+        width: 50%; 
+    }
+    .Tt{
+        font-size: 10px;
+        color: white;
+        margin-top: 5px;
+    }
+    input{
+        margin: 5px 0px 0px 0px;
+        padding: 5px;
+        font-size: 17px;
+        font-family: Raleway;
+        border-radius: 1% 1% 1% 1%;
+    }
+    textarea{
+        margin: 5px 0px 0px 0px;
+        height: 130px;
+        font-size: 17px;
+        font-family: Raleway;
+        border-radius: 1% 1% 1% 1%;
+    }
+    .knop{
+        background-color: rgb(13, 130, 89);
+        width: 100px;
+        color: white;
+        font-family: Montserrat;
+        font-size: 15px;
+        padding: 5px 0px;
+        border-radius: 1% 1% 1% 1%;
+
+    }
+    @media screen and (max-width: 1600px) {
+        form{
+          
+            width:50%;
+            margin:0px 2.5% ;
+            padding:0px 0px;
+            font-family: Raleway;
+            
+            
+            height:100%;
+            display: flex;
+            flex-direction: column;
+            
+            }
+    }
