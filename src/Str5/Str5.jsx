@@ -10,7 +10,7 @@ const Five = () => {
 			<div className='GG'>
 
 				<table border="0px" width="100%"
-					cellpadding="8" cellspacing="0" id="table">
+					cellPadding="8" cellSpacing="0" id="table">
 					<thead>
 						<tr>
 							<td>Услуга</td>

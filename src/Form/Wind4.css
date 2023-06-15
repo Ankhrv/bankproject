@@ -17,32 +17,33 @@
     font-family: Montserrat;
     color: white;
     font-size: 17px;
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 0px;
     margin-bottom: 5px;
 
 }
 form{
-  
     width:50%;
-    margin:0px 10% ;
     padding:0px 0px;
     font-family: Raleway;
-    
-    
     height:100%;
     display: flex;
     flex-direction: column;
     
     }
-    .te{
+    .te{width: auto;
+        
     
-        width: 50%; 
+    }
+    .GL{width: 50%;margin-right: 10.5%;
+        /* background-color: aquamarine; */
+      
     }
     .Tt{
         font-size: 10px;
         color: white;
-        margin-top: 5px;
+        margin-top: 0px;
+        text-shadow: 1px 1px 2px rgb(7, 0, 1);
     }
     input{
         margin: 5px 0px 0px 0px;
@@ -58,21 +59,22 @@ form{
         font-family: Raleway;
         border-radius: 1% 1% 1% 1%;
     }
-    .knop{
+    .knop4{
         background-color: rgb(13, 130, 89);
+        height: 28px;
         width: 100px;
         color: white;
         font-family: Montserrat;
         font-size: 15px;
-        padding: 5px 0px;
+        margin: 5px 0px;
         border-radius: 1% 1% 1% 1%;
 
     }
     @media screen and (max-width: 1600px) {
         form{
           
-            width:50%;
-            margin:0px 2.5% ;
+            width:100%;
+            margin-right:0% ;
             padding:0px 0px;
             font-family: Raleway;
             
@@ -82,4 +84,21 @@ form{
             flex-direction: column;
             
             }
+            .GL{width: 50%;margin-right: 2.5%;}
+    }
+    @media screen and (max-width: 650px) {
+        .GL{width: 100%;
+            /* background-color: aquamarine; */
+          
+        }
+        form{
+            margin:0px 2.5% ;
+        }
+            .ui{
+           
+            padding-top:0px;
+         
+        
+        }  
+      
     }

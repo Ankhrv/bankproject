@@ -68,3 +68,14 @@
 		}
 		
 	}
+	@media screen and (max-width: 450px) {
+		#table {
+			color: white;
+			margin: 0px 2.5%;}
+			#table {
+			
+				font-size: 14px;
+			
+			}
+			
+		}

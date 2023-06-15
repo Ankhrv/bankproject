@@ -12,7 +12,8 @@
      /* margin-left: 10%;
     margin-right: 10%;  */
     /* justify-content: center; */
-	width: 100%;
+	width: 100%; 
+   
 	
 }
 
@@ -50,9 +51,55 @@
         /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
         width: 100%;
         /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
-        height: 460px;
+        height: 470px;
         margin-top: 30px;
     }
     
     
 }
+@media screen and (max-width: 650px) {
+    .hh {
+        /*   общий для win1 win2  */
+        display: flex;
+         /* margin-left: 10%;
+        margin-right: 10%;  */
+        /* justify-content: center; */
+        flex-direction: column;}
+       
+    .k {
+        /* baner */
+        background: url(5.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 670px;
+        margin-top: 30px;
+    
+        
+        
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+ 
+       
+    .k {
+        /* baner */
+        background: url(5.jpg);
+        /*ставим картинку на фон, пишем относительеный путь*/
+        background-size: cover;
+        /*пишем данной свойство обязательно, чтобы картинка правильно покрыла весь блок*/
+        width: 100%;
+        /*обязательно задаем ширину и высоту, чтобы блок отобразился*/
+        height: 730px;
+        margin-top: 30px;
+    
+        
+        
+    }
+
+}
+
