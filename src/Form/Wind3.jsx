@@ -13,7 +13,7 @@ const Wind3 = () => {
             <p className='kll2'>harmonY64@yandex.ru</p>
             <p className='kll2'>Предоставляем услуги в РФ, г. Саратов и области</p>
             <p className='kll2'>Понедельник - Пятница: 9:00 - 18:00. </p>
-            <input className='knop' type="submit" value="Заказать звонок"></input></div>
+            <button className='knop' type="submit" value="Заказать звонок">Заказать звонок</button></div>
             <div ></div>
 
             </div></div>

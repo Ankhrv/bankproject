@@ -41,34 +41,50 @@ form{
     }
     .Tt{
         font-size: 10px;
+        font-weight: 500;
         color: white;
         margin-top: 0px;
-        text-shadow: 1px 1px 2px rgb(7, 0, 1);
+       
     }
     input{
         margin: 5px 0px 0px 0px;
-        padding: 5px;
-        font-size: 17px;
+        padding: 8px 10px;
+        font-size: 15px;
         font-family: Raleway;
-        border-radius: 1% 1% 1% 1%;
+        border-radius: 5px;
+        border: 0;
+        outline:0;
     }
     textarea{
         margin: 5px 0px 0px 0px;
+        padding: 8px 10px;
         height: 130px;
-        font-size: 17px;
+        font-size: 15px;
         font-family: Raleway;
-        border-radius: 1% 1% 1% 1%;
+        border-radius: 5px;
+        border: 0;
+        outline:0;
+        
     }
     .knop4{
         background-color: rgb(13, 130, 89);
-        height: 28px;
+       border: 0;
+       border-radius: 5px;
+        height: 32px;
         width: 100px;
         color: white;
         font-family: Montserrat;
         font-size: 15px;
         margin: 5px 0px;
-        border-radius: 1% 1% 1% 1%;
+        margin-bottom: 10px;
+        padding: 0px;
+        /* border-radius: 1% 1% 1% 1%; */
 
+
+    }
+    .knop4:hover{
+        background-color: rgb(29, 92, 73);
+    
     }
     @media screen and (max-width: 1600px) {
         form{
@@ -100,5 +116,12 @@ form{
          
         
         }  
+
+        .knop4{
+          font-size: 14px;
+            margin-top: 10px;
+           
+    
+        }
       
     }
