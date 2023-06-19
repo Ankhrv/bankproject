@@ -37,6 +37,7 @@
 align-items: center; 
 border: 5px solid rgb(13, 130, 89);
 border-radius: 5px 5px 5px 5px;
+cursor: pointer;
 }
 .flip-box:hover .flip-inner{
 	transform: rotateY(180deg);

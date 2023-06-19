@@ -72,7 +72,7 @@ padding: 15px;
 .Pica{
 font-size: 18px;
 padding: 8px 15px 8px 15px;
-
+font-family: Raleway;
 color: whitesmoke;
 text-decoration: none;
 background-color: rgb(13, 130, 89);
@@ -274,7 +274,11 @@ height: 680px;
              }
     }
     @media screen and (max-width: 650px) {
-        .txt{
+        .Pic25{
+          
+        font-family: Raleway;
+        font-size: 15px;
+        }   .txt{
            font-size: 25px;
         }
         
