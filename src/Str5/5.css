@@ -39,6 +39,7 @@
 	background-color: white;
 	color: rgb(46, 46, 46);
 }
+
 /* Четные строки */
 #table tbody tr:nth-child(even) {
 	background-color: whitesmoke;
@@ -52,35 +53,44 @@
 	font-size: 18px;
 	font-family: Raleway;
 }
+
 @media screen and (max-width: 1600px) {
-#table {
-	color: white;
-	margin: 0px 2.5%;
-}}
+	#table {
+		color: white;
+		margin: 0px 2.5%;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	#table {
 		color: white;
-		margin: 0px 2.5%;}
-		#table {
-		
-			font-size: 18px;
-		
-		}
+		margin: 0px 2.5%;
+	}
+
+	#table {
+
+		font-size: 18px;
 
 	}
-	@media screen and (max-width: 650px) {
-		.PP{
-			font-size: 25px;
-		 }
+
+}
+
+@media screen and (max-width: 650px) {
+	.PP {
+		font-size: 25px;
 	}
-	@media screen and (max-width: 450px) {
-		#table {
-			color: white;
-			margin: 0px 2.5%;}
-			#table {
-			
-				font-size: 14px;
-			
-			}
-			
-		}
+}
+
+@media screen and (max-width: 450px) {
+	#table {
+		color: white;
+		margin: 0px 2.5%;
+	}
+
+	#table {
+
+		font-size: 13px;
+
+	}
+
+}
