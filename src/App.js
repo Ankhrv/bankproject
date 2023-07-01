@@ -12,6 +12,8 @@ import Five from './Str5/Str5';
 import Form from './Form/Form';
 import Six from './Six/Six';
 import Seven from './Str7/Str7';
+import ScrollButton from './ScrollButton/ScrollButton';
+
 
 
 const App = () => {
@@ -29,6 +31,7 @@ const App = () => {
     <Form/>
     <Six/>
     <Seven/>
+    <ScrollButton/>
     
     </div>
   );
