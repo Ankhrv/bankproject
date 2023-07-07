@@ -50,16 +50,15 @@ const PopupGfg = () => {
                                     x
                             </button> <p className='ui3'>Служба поддержки</p>
                             <p className='ui2'>   Укажите ваши данные и нажмите кнопку "Отправить"</p> </div>
-      <input type="text" placeholder="Ваше имя" name="us_name" required />
-      <input type="phone" placeholder="Контактный телефон" name="us_email" required />
-      <textarea placeholder="Комментарий (не обязательно)" name="message"></textarea>
-      <button  className='knop4' type="submit" value="Отправить">{buttonText} 
+      <input className="inp" type="text" placeholder="Ваше имя" name="us_name" required />
+      <input className="inp" type="phone" placeholder="Контактный телефон" name="us_email" required />
+      <textarea className="inp" placeholder="Комментарий (не обязательно)" name="message"></textarea>
+      <button  className='knop44' type="submit" value="Отправить">{buttonText} 
       </button>
       <p className='Tt2'>
      Нажимая кнопку "отправить" вы подтверждаете что ознакомились и согласны с политикой конфиденциальности </p>
     </form>
                         </div>
-                     
                     </div>
                 )
             }

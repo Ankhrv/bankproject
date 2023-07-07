@@ -11,7 +11,7 @@ const Seven = () => {
 
 	return (
 <div className={fm.firstdiv}>
-    <div className={fm.f1div}></div>
+    <div className={fm.f1div}>
 <div className={fm.f2div}>
 <ul>
         <li className={fm.Liclass}>Гармония Участка </li>
@@ -54,7 +54,7 @@ const Seven = () => {
 
         
     </ul>
-</div>
+</div></div>
 </div>
 
 	);

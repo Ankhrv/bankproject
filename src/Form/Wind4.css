@@ -26,19 +26,22 @@
 .ui2{
     font-family: Montserrat;
     color: rgb(59, 52, 52);
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 5px;
+    margin-left: 0px;
 }
 .ui3{
     font-family: Montserrat;
     color: rgb(13, 130, 89);
     font-size: 18px;
-    font-weight:800;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 5px;
+    font-weight:900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+    border: 0;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
 }
 
 .Tt2{
@@ -46,8 +49,29 @@
     font-weight: 500;
     color: rgb(25, 24, 24);
     margin-top: 0px;
-   
+    margin-left: 0px;
 }
+.knop44{
+    background-color: rgb(13, 130, 89);
+   border: 0;
+   border-radius: 5px;
+    height: 32px;
+    width: 100px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin: 12px 0px 0px 0px;
+    margin-bottom: 10px;
+    padding: 0px 0px;
+    cursor: pointer;
+    /* border-radius: 1% 1% 1% 1%; */
+}
+.knop44:hover{
+    /* background-color: rgb(29, 92, 73); */
+    color: aqua;
+}
+
+
 
 
 
@@ -72,8 +96,7 @@ form{
         font-size: 10px;
         font-weight: 500;
         color: white;
-        margin-top: 0px;
-       
+        margin-top: 0px; 
     }
 
  
@@ -83,9 +106,11 @@ form{
         font-size: 15px;
         font-family: Raleway;
         border-radius: 5px;
-        border: 0;
+        border: solid 1px rgb(0, 0, 0, 0.2);
         outline:0;
     }
+
+   
     textarea{
         margin: 5px 0px 0px 0px;
         padding: 8px 10px;
@@ -93,9 +118,8 @@ form{
         font-size: 15px;
         font-family: Raleway;
         border-radius: 5px;
-        border: 0;
-        outline:0;
-        
+        border: solid 1px rgb(0, 0, 0, 0.2);
+        outline:0;  
     }
     .knop4{
         background-color: rgb(13, 130, 89);
@@ -111,8 +135,6 @@ form{
         padding: 0px 0px;
         cursor: pointer;
         /* border-radius: 1% 1% 1% 1%; */
-
-
     }
     .knop4:hover{
         background-color: rgb(29, 92, 73);
