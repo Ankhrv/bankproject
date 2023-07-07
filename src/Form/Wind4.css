@@ -22,6 +22,35 @@
     margin-bottom: 5px;
 
 }
+/* ДЛя формы звонка */
+.ui2{
+    font-family: Montserrat;
+    color: rgb(59, 52, 52);
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+.ui3{
+    font-family: Montserrat;
+    color: rgb(13, 130, 89);
+    font-size: 18px;
+    font-weight:800;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.Tt2{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(25, 24, 24);
+    margin-top: 0px;
+   
+}
+
+
+
 form{
     width:50%;
     padding:0px 0px;
@@ -46,6 +75,8 @@ form{
         margin-top: 0px;
        
     }
+
+ 
     input{
         margin: 5px 0px 0px 0px;
         padding: 8px 10px;

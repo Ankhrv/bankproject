@@ -21,3 +21,7 @@
     cursor: pointer;
     z-index: 1;
 }
+.closed{
+background-color: rgb(13, 130, 89);
+    border: none;
+}
