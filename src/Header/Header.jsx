@@ -8,6 +8,8 @@ import tel4 from '../Header/Contacts/logo.messangers/34.png'
 // import Logo from './Logotip/Logo';
 // import Text from './Text/Text';
 // import Contacts from './Contacts/Contacts';
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
     return (
@@ -40,7 +42,8 @@ const Header = () => {
     </div>
 
             <div className={s.q5}>
-                <a href="#">Войти</a>
+            <Link to="/Profile">Войти</Link>  
+            {/* <a href="/Profile">Войти</a> */}
             </div> 
             </div>     
         

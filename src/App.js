@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import React from 'react';
+import React from "react";
 import Header from './Header/Header';
 import Menu from './Menu/Menu';
 import MenuBaner from './Baner/MenuBaner';
@@ -13,29 +13,39 @@ import Form from './Form/Form';
 import Six from './Six/Six';
 import Seven from './Str7/Str7';
 import ScrollButton from './ScrollButton/ScrollButton';
+// import OneW from './OneW';
 import Phone from './Phone/Phone';
+
+// import Profile from './Profile/Profile';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 
 const App = () => {
-    return (
-    <div className="App"> 
+  return (
+    <div className="App">
+    <Header />
+    <Menu />
+    <MenuBaner />
+    <First />
+    <Two />
+    <Three />
+    <For />
+    <Five />
+    <Form />
+    <Six />
+    <Seven />
+    <ScrollButton />
+    <Phone />
+  </div>
+    // <BrowserRouter><OneW/> <Routes>
+    //  <Route Component={OneW}/>
+     
     
-    <Header/> 
-    <Menu/>
-    <MenuBaner/>
-    <First/>
-    <Two/>
-    <Three/>
-    <For/> 
-    <Five/>
-    <Form/>
-    <Six/>
-    <Seven/>
-    <ScrollButton/>
-    <Phone/>
-    
-    </div>
+    //  <Route Component={Profile}/>
+    //  </Routes>
+     
+    //  </BrowserRouter>
   );
 }
 
