@@ -19,18 +19,20 @@ const Header = () => {
            
            <div className={s.q1}>
         <div className={s.q01}>
-            <a href="#1">H</a>
-            <a href="#1">U</a>
+        <Link to="/">H</Link>
+        <Link to="/">U</Link>
+            {/* <a href="#1">U</a> */}
         </div>
         <div className={s.q2}>
-            <a href="#1">Harmony</a>
-            <a href="#1">Uchastka</a>
+            {/* <a>Harmony</a> */}
+            <Link to="/">Harmony</Link>
+            <Link to="/">Uchastka</Link>
         </div>
         </div>
 
         <div className={s.q33}>
-            <a href="#1"><img src={tel2} alt='tel2' className={s.ii2}></img><img src={tel3} alt='tel3' className={s.ii3}></img><img src={tel4} alt='tel4' className={s.ii4}></img></a>
-            <a href="#1"><img src={tel} alt='tel' className={s.ii1}></img> +7 (937) 263-90-10</a>
+            <a><img src={tel2} alt='tel2' className={s.ii2}></img><img src={tel3} alt='tel3' className={s.ii3}></img><img src={tel4} alt='tel4' className={s.ii4}></img></a>
+            <a><img src={tel} alt='tel' className={s.ii1}></img> +7 (937) 263-90-10</a>
         </div>
             </div> 
             
@@ -38,7 +40,7 @@ const Header = () => {
             
 
             <div className={s.q4}>
-        <a href="#1"><img src={logo} alt='logo' className={s.ii}></img> Выезд и расчёт - бесплатно</a>
+        <a><img src={logo} alt='logo' className={s.ii}></img> Выезд и расчёт - бесплатно</a>
     </div>
 
             <div className={s.q5}>
