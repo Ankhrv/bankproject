@@ -2,6 +2,8 @@ import React from 'react';
 import a from './Menu.module.css';
 import b from './mobilmenu/mobilmenu.module.css';
 import Sticky from 'react-stickynode';
+import { Link } from "react-router-dom";
+
 
 const Menu1 = () => {
 
@@ -14,16 +16,16 @@ const Menu1 = () => {
 
                     <div className={a.navbar}>
                         <ul className={a.mmenuu}>
-                            <li><a href='#'>Автополив</a>
-                                <ul className={a.ssubmenuu}>
+                            <li> <Link to="/"><a>Автополив</a></Link>
+                                {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Link</a></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><a href='#'>Ландшафтный дизайн</a>
-                                <ul className={a.ssubmenuu}>
+                            <li> <Link to="/landshaftnyj-dizajn"><a>Ландшафтный дизайн</a></Link>
+                                {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Link</a></li>
                                     <li><a href='#'>Link</a></li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li><a href='#'>Озеленение и благоустройство</a>
                                 <ul className={a.ssubmenuu}>
@@ -32,29 +34,30 @@ const Menu1 = () => {
                                     <li><a href='#'>Link</a></li>
                                 </ul>
                             </li>
-                            <li><a href='#'>Растения</a>
-                                <ul className={a.ssubmenuu}>
+                            <li><Link to="/Derevja"><a>Растения</a></Link>
+                                {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Деревья</a></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><a href='#'>Прайс-лист</a>
-                                <ul className={a.ssubmenuu}>
+                            <li><Link to="/Price"><a>Прайс-лист</a></Link>
+                                {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>расчет стоимости</a></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><a href='#'>Консервация и обслуживание</a>
-                                <ul className={a.ssubmenuu}>
+                            <li><Link to="/Obslugivaniye"><a>Консервация и обслуживание</a></Link>
+                                {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>гарантии</a></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><a href='#'>Новинки сезона</a>
-                                <ul className={a.ssubmenuu}>
+                            <li><Link to="/Novinky"><a>Новинки сезона</a></Link>
+                                {/* <ul className={a.ssubmenuu}>
                                     <li><a href='#'>Водопады</a></li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li><a href='#'>О нас</a>
-                                <ul className={a.ssubmenuu2}>
-                                    <li><a href='#'>обратная связь</a></li>
+                            <ul className={a.ssubmenuu2}>
+                                    <li><Link to="/Contacts"><a>Контаты</a></Link></li>
+                                    <li><Link to="/Actions"><a>Акции</a></Link></li>
                                 </ul>
                             </li>
                         </ul>

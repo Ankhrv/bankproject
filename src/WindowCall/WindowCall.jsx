@@ -9,7 +9,7 @@ import vv from '../WindowCall/Phone.module.css';
 
 
 
-const PopupGfg = () => {
+const WindowCall = () => {
 
     const form = useRef();
 
@@ -67,4 +67,4 @@ const PopupGfg = () => {
   );
 }
 
-export default PopupGfg;
+export default WindowCall;

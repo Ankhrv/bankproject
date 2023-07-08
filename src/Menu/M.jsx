@@ -3,6 +3,7 @@ import Sticky from 'react-stickynode';
 import Picmen from './mobilmenu/Picmen.png';
 import '../Menu//mobilmenu/App2.css';
 import b from './mobilmenu/mobilmenu.module.css';
+import { Link } from "react-router-dom";
 
 function Stickynavbar() {
 
@@ -36,7 +37,7 @@ function Stickynavbar() {
                    </div> 
                     <div ref={Mennu} className="dropdown-content">
                     
-                        <div><button onClick={myFunction2} className="dropbtn1"><a>Автополив</a></button></div>
+                        {/* <div><button onClick={myFunction2} className="dropbtn1"><a>Автополив</a></button></div>
                          <div ref={Mennu2}className="dropdown-content3">
                         <a className="aaa" href='#'>Link</a>
                         <a className="aaa" href='#'>Link</a>
@@ -49,14 +50,20 @@ function Stickynavbar() {
                         <a className='aaa' href='#'>Link</a>
                         <a className='aaa' href='#'>Link</a>
                         <a className='aaa' href='#'>Link</a>
-                        <a className='aaa' href='#'>Link</a></div>
-
+                        <a className='aaa' href='#'>Link</a></div> */}
+                       <Link to="/">Автополив</Link>
+                       <Link to="/landshaftnyj-dizajn">Ландшафтный дизайн</Link>
                        <a href='#'>Озеленение и благоустройство</a>
-                       <a href='#'>Растения</a>
+                       <Link to="/Derevja">Растения</Link>
                        <a href='#'>Прайс-лист</a>
                        <a href='#'>Консервация и обслуживание</a>
                        <a href='#'>Новинки сезона</a>
-                       <a href='#'>О нас</a>
+
+                       <div><button onClick={myFunction3} className="dropbtn2"><a>О нас</a></button></div>
+                         <div ref={Mennuf}className="dropdown-content3">
+                         <Link className='aaa' to="/Contacts">Контаты</Link>
+                         <Link className='aaa' to="/Actions">Акции</Link>
+                    </div> 
                     </div>   
                 </div>
 
